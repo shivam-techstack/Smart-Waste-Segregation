@@ -1,0 +1,10 @@
+names:
+- Glass
+- Metal
+- Paper
+- Plastic
+- Waste
+path: /content/waste_detection
+test: test/images
+train: /content/train_runs/oversample_train_list.txt
+val: valid/images

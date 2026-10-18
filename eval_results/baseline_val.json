@@ -1,0 +1,54 @@
+{
+  "weights": "best_model.pt",
+  "split": "val",
+  "images": 580,
+  "instances": 1319,
+  "precision": 0.4300433833608433,
+  "recall": 0.26945078555176255,
+  "mAP50": 0.20505333532396514,
+  "mAP50-95": 0.14685500291581596,
+  "speed_ms_per_image": {
+    "preprocess": 1.93,
+    "inference": 4.34,
+    "loss": 0.0,
+    "postprocess": 1.62
+  },
+  "per_class": {
+    "Glass": {
+      "instances": 69,
+      "precision": 1.0,
+      "recall": 0.0,
+      "mAP50": 0.01975277649130765,
+      "mAP50-95": 0.015105178964552435
+    },
+    "Metal": {
+      "instances": 209,
+      "precision": 0.33585889525957635,
+      "recall": 0.41626794258373206,
+      "mAP50": 0.26086706816613353,
+      "mAP50-95": 0.1985268557938749
+    },
+    "Paper": {
+      "instances": 267,
+      "precision": 0.2665559971492985,
+      "recall": 0.21722846441947566,
+      "mAP50": 0.18506546635302565,
+      "mAP50-95": 0.12482791425993704
+    },
+    "Plastic": {
+      "instances": 633,
+      "precision": 0.41409719707369486,
+      "recall": 0.5860979462875198,
+      "mAP50": 0.4935674255293756,
+      "mAP50-95": 0.3557461728369164
+    },
+    "Waste": {
+      "instances": 141,
+      "precision": 0.13370482732164693,
+      "recall": 0.1276595744680851,
+      "mAP50": 0.06601394007998332,
+      "mAP50-95": 0.040068892723798974
+    }
+  },
+  "plots_dir": "/content/eval_results/baseline_val"
+}

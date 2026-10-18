@@ -1,0 +1,54 @@
+{
+  "weights": "best_model.pt",
+  "split": "test",
+  "images": 45,
+  "instances": 159,
+  "precision": 0.47193587044751284,
+  "recall": 0.28100899100899107,
+  "mAP50": 0.2023709155480792,
+  "mAP50-95": 0.14667751536609047,
+  "speed_ms_per_image": {
+    "preprocess": 2.43,
+    "inference": 64.9,
+    "loss": 0.0,
+    "postprocess": 1.31
+  },
+  "per_class": {
+    "Glass": {
+      "instances": 26,
+      "precision": 1.0,
+      "recall": 0.0,
+      "mAP50": 0.0,
+      "mAP50-95": 0.0
+    },
+    "Metal": {
+      "instances": 13,
+      "precision": 0.27006465907908345,
+      "recall": 0.46153846153846156,
+      "mAP50": 0.2810786849602639,
+      "mAP50-95": 0.22959503861148595
+    },
+    "Paper": {
+      "instances": 28,
+      "precision": 0.3855816310907048,
+      "recall": 0.32142857142857145,
+      "mAP50": 0.23585885856656197,
+      "mAP50-95": 0.15744277907516607
+    },
+    "Plastic": {
+      "instances": 70,
+      "precision": 0.43629522659794834,
+      "recall": 0.4857142857142857,
+      "mAP50": 0.39423537239600004,
+      "mAP50-95": 0.2898669341115262
+    },
+    "Waste": {
+      "instances": 22,
+      "precision": 0.2677378354698277,
+      "recall": 0.13636363636363635,
+      "mAP50": 0.10068166181757016,
+      "mAP50-95": 0.05648282503227402
+    }
+  },
+  "plots_dir": "C:\\Users\\HP\\Desktop\\Smart Waste Segregation\\eval_results\\baseline_test"
+}

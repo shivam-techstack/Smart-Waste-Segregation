@@ -1,0 +1,10 @@
+# Original dependencies from the reference repository
+opencv-python
+matplotlib
+numpy
+PyYAML
+ultralytics>=8.3.112
+# Added for the Streamlit app (tested with ultralytics 8.4.175, streamlit 1.65.0, Python 3.11)
+streamlit>=1.50
+pandas
+pillow
